@@ -6,7 +6,7 @@ Developed By Ramyar Daneshgar
 ⚠️ Disclaimer: All actions were performed in a controlled, authorized environment. Unauthorized use is strictly prohibited.
 
 ## **Context**
-As part of a web fingerprinting exercise, I worked on identifying key components of the `inlanefreight.local` environment. The goal was to gather the following information from the target system:
+As part of a web fingerprinting lab, I worked on identifying key components of the `inlanefreight.local` environment. The goal was to gather the following information from the target system:
 1. **Apache version** running on `app.inlanefreight.local`
 2. **CMS used** on `app.inlanefreight.local`
 3. **Operating system** on which `dev.inlanefreight.local` is running
@@ -141,4 +141,4 @@ Server: Apache/2.4.41 (Ubuntu)
 
 ## **Challenges and Lessons Learned**
 1. **Hostname Resolution:** Initially, `app.inlanefreight.local` and `dev.inlanefreight.local` could not be resolved. Updating the `/etc/hosts` file resolved this issue.
-2. **Combining Tools:** Using multiple tools like `curl`, `WhatWeb`, and `nmap` helped validate findings and provided comprehensive results.
+2. **Combining Tools:** Using multiple tools like `curl`, `WhatWeb`, and `nmap` helped validate findings and provided comprehensive reconnaissance into target system. 
