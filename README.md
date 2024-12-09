@@ -2,6 +2,8 @@
 HackTheBox Writeup: Fingerprinting using curl, nmap, and WhatWeb to identify server configurations, CMS, and operating systems.
 By Ramyar Daneshgar 
 
+⚠️ Disclaimer: All actions were performed in a controlled, authorized environment. Unauthorized use is strictly prohibited.
+
 ## **Context**
 As part of a web fingerprinting exercise, I worked on identifying key components of the `inlanefreight.local` environment. The goal was to gather the following information from the target system:
 1. **Apache version** running on `app.inlanefreight.local`
