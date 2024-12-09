@@ -1,5 +1,6 @@
 # HTB-Writeup-Fingerprinting
 HackTheBox Writeup: Fingerprinting using curl, nmap, and WhatWeb to identify server configurations, CMS, and operating systems.
+By Ramyar Daneshgar 
 
 ## **Context**
 As part of a web fingerprinting exercise, I worked on identifying key components of the `inlanefreight.local` environment. The goal was to gather the following information from the target system:
@@ -138,6 +139,3 @@ Server: Apache/2.4.41 (Ubuntu)
 ## **Challenges and Lessons Learned**
 1. **Hostname Resolution:** Initially, `app.inlanefreight.local` and `dev.inlanefreight.local` could not be resolved. Updating the `/etc/hosts` file resolved this issue.
 2. **Combining Tools:** Using multiple tools like `curl`, `WhatWeb`, and `nmap` helped validate findings and provided comprehensive results.
-
-This systematic approach enabled accurate identification of the technologies and configurations in the target environment.
-```
