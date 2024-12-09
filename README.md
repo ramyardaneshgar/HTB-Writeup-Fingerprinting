@@ -1,7 +1,7 @@
 # HTB-Writeup-Fingerprinting
 HackTheBox Writeup: Fingerprinting using curl, nmap, and WhatWeb to identify server configurations, CMS, and operating systems.
 
-# Developed By Ramyar Daneshgar 
+Developed By Ramyar Daneshgar 
 
 ⚠️ Disclaimer: All actions were performed in a controlled, authorized environment. Unauthorized use is strictly prohibited.
 
